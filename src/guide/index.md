@@ -17,6 +17,6 @@
 
 I wanted to code something similar to *react-three-fiber* but for VueJS.
 
-I started from scratch, I will rewrite some of my [WebGL demos](https://codepen.io/collection/AGZywR) to see if this little toy can do the job.
+I started from scratch and I will rewrite some of my [WebGL demos](https://codepen.io/collection/AGZywR) to see if this little toy can do the job.
 
 *Trois* is a french word; it means *Three*.

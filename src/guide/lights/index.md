@@ -41,7 +41,7 @@ You should set a *ref* on your light:
 <PointLight ref="light" />
 ```
 
-You can then access ThreeJS light in your component script:
+You can then access your three.js light in your component script:
 
 ```js
 const light = this.$ref.light.light;
