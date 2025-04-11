@@ -3,7 +3,7 @@
 You can easily handle mouse or touch events on your meshes.
 
 ::: tip
-To be able to handle events on ThreeJS objects, TroisJS uses *raycasting*. 
+To be able to handle events on three.js objects, TroisJS uses *raycasting*. 
 
 Read more : https://threejs.org/docs/#api/en/core/Raycaster
 :::

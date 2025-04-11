@@ -2,12 +2,12 @@
 
 You can easily create the following lights :
 
-- `AmbientLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/AmbientLight.ts), [threejs doc](https://threejs.org/docs/index.html#api/en/lights/AmbientLight))
-- `DirectionalLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/DirectionalLight.ts), [threejs doc](https://threejs.org/docs/index.html#api/en/lights/DirectionalLight))
-- `HemisphereLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/HemisphereLight.ts), [threejs doc](https://threejs.org/docs/index.html#api/en/lights/HemisphereLight))
-- `PointLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/PointLight.ts), [threejs doc](https://threejs.org/docs/index.html#api/en/lights/PointLight))
-- `RectAreaLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/RectAreaLight.ts), [threejs doc](https://threejs.org/docs/#api/en/lights/RectAreaLight))
-- `SpotLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/SpotLight.ts), [threejs doc](https://threejs.org/docs/index.html#api/en/lights/SpotLight))
+- `AmbientLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/AmbientLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/AmbientLight))
+- `DirectionalLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/DirectionalLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/DirectionalLight))
+- `HemisphereLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/HemisphereLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/HemisphereLight))
+- `PointLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/PointLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/PointLight))
+- `RectAreaLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/RectAreaLight.ts), [three.js doc](https://threejs.org/docs/#api/en/lights/RectAreaLight))
+- `SpotLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/SpotLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/SpotLight))
 
 Example :
 
@@ -33,7 +33,7 @@ Example :
 </tbody>
 </table>
 
-### Access ThreeJS light
+### Access three.js light
 
 You should set a *ref* on your light :
 

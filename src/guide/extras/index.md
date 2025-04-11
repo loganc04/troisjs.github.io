@@ -1,6 +1,6 @@
 # Components
 
-Extra components that require manual imports, like ThreeJS's Examples directory (see "Examples" section [here](https://threejs.org/docs/#manual/en/introduction/Installation)).
+Extra components that require manual imports, like three.js's Examples directory (see "Examples" section [here](https://threejs.org/docs/#manual/en/introduction/Installation)).
 
 ## GLTFViewer
 

@@ -2,13 +2,13 @@
 home: true
 # heroImage: /assets/logo.svg
 heroText: TroisJS
-tagline: ✨ ThreeJS + VueJS 3 + ViteJS ⚡
+tagline: ✨ three.js + VueJS 3 + ViteJS ⚡
 actionText: Examples
 actionLink: /examples/demos/1
 altActionText: Documentation
 altActionLink: /guide/
 features:
-  - title: ✨ ThreeJS
+  - title: ✨ three.js
     details: The most popular WebGL library, with a good support on both desktop and mobile.
   - title: 🛠️ VueJS 3
     details: With TroisJS you can easily create 3D content for your website using VueJS components.

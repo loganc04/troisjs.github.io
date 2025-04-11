@@ -2,9 +2,9 @@
 
 You can import TroisJS as a CDN package (take a look at these [codepen examples](https://codepen.io/collection/AxoWoz)).
 
-::: warning ThreeJS/VueJS versions (TroisJS 0.3.3)
-If you need to import things from ThreeJS/VueJS, you should use :
-- ThreeJS **0.134.0** (https://cdn.skypack.dev/three@0.134.0/build/three.module.js)
+::: warning three.js/VueJS versions (TroisJS 0.3.3)
+If you need to import things from three.js/VueJS, you should use :
+- three.js **0.134.0** (https://cdn.skypack.dev/three@0.134.0/build/three.module.js)
 - VueJS **3.2.20** (https://unpkg.com/vue@3.2.20/dist/vue.esm-browser.prod.js)
 :::
 

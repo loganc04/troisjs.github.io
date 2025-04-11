@@ -1,4 +1,4 @@
-# ✨ ThreeJS + VueJS 3 + ViteJS ⚡
+# ✨ three.js + VueJS 3 + ViteJS ⚡
 
 <p>
   <a href="https://troisjs.github.io/little-planet/" target="_blank"><img src="/assets/screenshots/little-planet.jpg" style="width:30%; margin-right: 1%;" /></a>

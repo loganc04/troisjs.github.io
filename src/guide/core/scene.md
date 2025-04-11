@@ -23,7 +23,7 @@ See [Scene.ts](https://github.com/troisjs/trois/blob/master/src/core/Scene.ts) a
 If you need a transparent renderer, you should use `alpha` on the [renderer](renderer).
 :::
 
-### Access ThreeJS scene
+### Access three.js scene
 
 You should set a *ref* on the scene :
 
@@ -33,7 +33,7 @@ You should set a *ref* on the scene :
 </Scene>
 ```
 
-You can then access ThreeJS scene in your component script :
+You can then access three.js scene in your component script :
 
 ```js
 const scene = this.$refs.scene.scene;

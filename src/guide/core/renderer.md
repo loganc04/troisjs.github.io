@@ -45,7 +45,7 @@ See [Renderer.ts](https://github.com/troisjs/trois/blob/master/src/core/Renderer
     </tr>
     <tr>
       <td><code>orbitCtrl</code></td>
-      <td>Enable/disable OrbitControls. If value is an Object, it will be used to configure [OrbitControls](#access-threejs-orbitcontrols).</td>
+      <td>Enable/disable OrbitControls. If the value is an Object, it will be used to configure [OrbitControls](#access-threejs-orbitcontrols).</td>
       <td>Boolean, Object</td>
       <td>false</td>
     </tr>
@@ -180,7 +180,7 @@ renderer.onInit(() => {
 })
 ```
 
-## Access ThreeJS renderer
+## Access three.js renderer
 
 You should set a *ref* on the renderer :
 
@@ -190,15 +190,15 @@ You should set a *ref* on the renderer :
 </Renderer>
 ```
 
-You can then access ThreeJS renderer in your component script :
+You can then access three.js renderer in your component script :
 
 ```js
 const renderer = this.$refs.renderer.renderer;
 ```
 
-## Access ThreeJS OrbitControls
+## Access three.js OrbitControls
 
-In the same fashion you can access the renderer's `three` object which contains different functions to control the scene, amongst which is `cameraCtrl`, handling the ThreeJS `OrbitControls` settings
+In the same fashion you can access the renderer's `three` object which contains different functions to control the scene, amongst which is `cameraCtrl`, handling the three.js `OrbitControls` settings
 
 ```js
 const orbitCtrl = this.$refs.renderer.three.cameraCtrl;
@@ -226,7 +226,7 @@ orbitCtrl.addEventListener('end', () => {
 
 
 ### Properties, Methods
-You can apply all properties and methods in the same way as listed in the official [ThreeJS docs](https://threejs.org/docs/?q=orbit#examples/en/controls/OrbitControls)
+You can apply all properties and methods in the same way as listed in the official [three.js docs](https://threejs.org/docs/?q=orbit#examples/en/controls/OrbitControls)
 
 Example:
 

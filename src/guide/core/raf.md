@@ -3,7 +3,7 @@
 TroisJS launch a `requestAnimationFrame` loop to render the scene, you can use `onBeforeRender()` to execute your code before each frame.
 
 ::: warning
-The render loop usually runs at 60fps, don't use reactivity to update troisjs components, you should directly update ThreeJS objects.
+The render loop usually runs at 60fps, don't use reactivity to update troisjs components, you should directly update three.js objects.
 
 Please see why here : [proxy setter benchmark](https://www.measurethat.net/Benchmarks/Show/12503/0/object-vs-proxy-vs-proxy-setter).
 :::
