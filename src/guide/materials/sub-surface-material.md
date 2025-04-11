@@ -10,11 +10,11 @@ This material is an implementation of the [shader material](./shader-material) u
 </Box>
 ```
 
-Source : https://github.com/troisjs/trois/blob/master/src/materials/SubSurfaceMaterial.ts
+Source: https://github.com/troisjs/trois/blob/master/src/materials/SubSurfaceMaterial.ts
 
 ### `uniform` Prop
 
-You can use the `uniform` prop to customize this material, e.g. :
+You can use the `uniform` prop to customize this material, e.g.:
 
 ```html
 <Box>

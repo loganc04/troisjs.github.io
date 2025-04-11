@@ -52,11 +52,11 @@ See [Renderer.ts](https://github.com/troisjs/trois/blob/master/src/core/Renderer
     <tr>
       <td><code>pointer</code></td>
       <td>
-        Listen for pointer events to track mouse or touch positions (2D and 3D). Use <code>renderer.three.pointer</code> to get :
+        Listen for pointer events to track mouse or touch positions (2D and 3D). Use <code>renderer.three.pointer</code> to get:
         <ul>
-          <li><code>position</code> : 2D position.</li>
-          <li><code>positionN</code> : nomalized position, can be used for raycasting.</li>
-          <li><code>'positionV3'</code> : 3D position.</li>
+          <li><code>position</code>: 2D position.</li>
+          <li><code>positionN</code>: nomalized position, can be used for raycasting.</li>
+          <li><code>'positionV3'</code>: 3D position.</li>
         </ul>
       </td>
       <td>Boolean, Object</td>
@@ -67,11 +67,11 @@ See [Renderer.ts](https://github.com/troisjs/trois/blob/master/src/core/Renderer
       <td>
         Resize canvas on window resize.
         <ul>
-          <li><code>false</code> : disabled</li>
-          <li><code>true</code> : parent size</li>
-          <li><code>'window'</code> : window size</li>
+          <li><code>false</code>: disabled</li>
+          <li><code>true</code>: parent size</li>
+          <li><code>'window'</code>: window size</li>
         </ul>
-        To directly set the size of the renderer you can call the built in three function:
+        To directly set the size of the renderer, you can call the built in three.js function:
         <code>this.$refs.renderer.three.setSize(width, height)</code>
       </td>
       <td>Boolean, String</td>
@@ -100,7 +100,7 @@ See [Renderer.ts](https://github.com/troisjs/trois/blob/master/src/core/Renderer
 
 ## Events API (v0.3)
 
-You can use the following functions to add/remove event listeners on Renderer component :
+You can use the following functions to add/remove event listeners on Renderer components:
 
 <table>
   <tbody>
@@ -148,7 +148,7 @@ You can use the following functions to add/remove event listeners on Renderer co
 </table>
 
 
-You can also use :
+You can also use:
 
 <table>
   <tbody>
@@ -169,7 +169,7 @@ You can also use :
 
 ## Custom render function
 
-You can use a custom render function :
+You can use a custom render function:
 
 ```js
 const renderer = this.$refs.renderer
@@ -182,7 +182,7 @@ renderer.onInit(() => {
 
 ## Access three.js renderer
 
-You should set a *ref* on the renderer :
+You should set a *ref* on the renderer:
 
 ```html
 <Renderer ref="renderer">
@@ -190,7 +190,7 @@ You should set a *ref* on the renderer :
 </Renderer>
 ```
 
-You can then access three.js renderer in your component script :
+You can then access three.js renderer in your component script:
 
 ```js
 const renderer = this.$refs.renderer.renderer;

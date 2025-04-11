@@ -1,6 +1,6 @@
 # v-for
 
-You can use `v-for` to easily create multiple components :
+You can use `v-for` to easily create multiple components:
 
 <ClientOnly>
   <div style="text-align:center;">

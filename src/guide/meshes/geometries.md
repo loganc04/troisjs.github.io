@@ -1,6 +1,6 @@
 # Using Geometries
 
-Instead using predefined meshes, you can create mesh with geometry like this :
+Instead of using predefined meshes, you can create meshes with geometry like this:
 
 ```html
 <Mesh>

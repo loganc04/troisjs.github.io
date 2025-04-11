@@ -1,6 +1,6 @@
 # Usage
 
-TroisJS needs a [`Renderer`](renderer), a [`Camera`](camera) and a [`Scene`](scene) :
+TroisJS needs a [`Renderer`](renderer), a [`Camera`](camera) and a [`Scene`](scene):
 
 ```vue
 <template>

@@ -2,7 +2,7 @@
 
 You can use `EffectComposer` ([source](https://github.com/troisjs/trois/blob/master/src/effects/EffectComposer.ts)) to easily add post processing effects.
 
-Passes :
+Passes:
 
 - `BokehPass` ([source](https://github.com/troisjs/trois/blob/master/src/effects/BokehPass.ts))
 - `FilmPass` ([source](https://github.com/troisjs/trois/blob/master/src/effects/FilmPass.ts))

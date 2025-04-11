@@ -5,7 +5,7 @@ You can easily handle mouse or touch events on your meshes.
 ::: tip
 To be able to handle events on three.js objects, TroisJS uses *raycasting*. 
 
-Read more : https://threejs.org/docs/#api/en/core/Raycaster
+Read more: https://threejs.org/docs/#api/en/core/Raycaster
 :::
 
 ## Mesh Events
@@ -53,7 +53,7 @@ You can use the following props to handle events on a *Mesh* or *InstancedMesh*:
   </tbody>
 </table>
 
-Example :
+Example:
 
 ```vue
 <template>
@@ -90,7 +90,7 @@ export default {
 
 ## Raycaster Component
 
-If you need to easily handle pointer events on all your scene's meshes, you can use `Raycaster` component :
+If you need to easily handle pointer events on all your scene's meshes, you can use `Raycaster` component:
 
 ```vue
 <template>
@@ -130,7 +130,7 @@ export default {
 
 By default, raycasting will be made on pointer move, but it can be useful to do the same on every frame.
 
-If using mesh events, you should set `pointer` prop on `Renderer` :
+If using mesh events, you should set `pointer` prop on `Renderer`:
 
 ```html
 <Renderer :pointer="{ intersectMode: 'frame' }">
@@ -138,7 +138,7 @@ If using mesh events, you should set `pointer` prop on `Renderer` :
 </Renderer>
 ```
 
-If using `Raycaster` component, you should set `intersect-mode` prop :
+If using `Raycaster` component, you should set `intersect-mode` prop:
 
 ```html
 <Raycaster intersect-mode="frame" />

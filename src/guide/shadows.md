@@ -1,12 +1,12 @@
 # Shadows
 
-To enable shadows :
+To enable shadows:
 
 - set `shadow` on `Renderer`,
 - set `cast-shadow` on light,
 - set `cast-shadow`/`receive-shadow` on mesh.
 
-Example :
+Example
 
 ```html
 <Renderer shadow>

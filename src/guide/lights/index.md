@@ -1,6 +1,6 @@
 # Lights (wip)
 
-You can easily create the following lights :
+You can easily create the following lights:
 
 - `AmbientLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/AmbientLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/AmbientLight))
 - `DirectionalLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/DirectionalLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/DirectionalLight))
@@ -9,7 +9,7 @@ You can easily create the following lights :
 - `RectAreaLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/RectAreaLight.ts), [three.js doc](https://threejs.org/docs/#api/en/lights/RectAreaLight))
 - `SpotLight` ([source](https://github.com/troisjs/trois/blob/master/src/lights/SpotLight.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/lights/SpotLight))
 
-Example :
+Example:
 
 ```html
 <PointLight color="#ffffff" :intensity="0.5" />
@@ -35,13 +35,13 @@ Example :
 
 ### Access three.js light
 
-You should set a *ref* on your light :
+You should set a *ref* on your light:
 
 ```html
 <PointLight ref="light" />
 ```
 
-You can then access ThreeJS light in your component script :
+You can then access ThreeJS light in your component script:
 
 ```js
 const light = this.$ref.light.light;

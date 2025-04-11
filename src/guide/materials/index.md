@@ -1,6 +1,6 @@
 # Materials
 
-You can easily create the following materials :
+You can easily create the following materials:
 
 - `BasicMaterial` ([source](https://github.com/troisjs/trois/blob/master/src/materials/Material.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial))
 - `LambertMaterial` ([source](https://github.com/troisjs/trois/blob/master/src/materials/Material.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/materials/MeshLambertMaterial))
@@ -12,7 +12,7 @@ You can easily create the following materials :
 - `SubSurfaceMaterial` ([source](https://github.com/troisjs/trois/blob/master/src/materials/SubSurfaceMaterial.ts), [three.js example](https://github.com/mrdoob/three.js/blob/master/examples/webgl_materials_subsurface_scattering.html))
 - `ToonMaterial` ([source](https://github.com/troisjs/trois/blob/master/src/materials/Material.ts), [three.js doc](https://threejs.org/docs/index.html#api/en/materials/MeshToonMaterial))
 
-Example :
+Example:
 
 ```html
 <Box>
@@ -35,7 +35,7 @@ Example :
 </tbody>
 </table>
 
-You can use `props` to easily customize three.js material, e.g. :
+You can use `props` to easily customize three.js material, e.g.:
 
 ```html
 <Box>
@@ -43,7 +43,7 @@ You can use `props` to easily customize three.js material, e.g. :
 </Box>
 ```
 
-Here is an incomplete list of threejs material properties (to get the complete list please read https://threejs.org/docs/#api/en/materials/Material) :
+Here is an incomplete list of threejs material properties (to get the complete list please read https://threejs.org/docs/#api/en/materials/Material):
 
 <table>
 <tbody>
@@ -67,13 +67,13 @@ Here is an incomplete list of threejs material properties (to get the complete l
 
 ### Access three.js material
 
-You should set a *ref* on your material :
+You should set a *ref* on your material:
 
 ```html
 <PhongMaterial ref="material" />
 ```
 
-You can then access three.js material in your component script :
+You can then access three.js material in your component script:
 
 ```js
 const material = this.$ref.material.material;

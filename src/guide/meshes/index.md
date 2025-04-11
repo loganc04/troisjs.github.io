@@ -1,6 +1,6 @@
 # Meshes
 
-You can easily create mesh :
+You can easily create a mesh:
 
 ```html
 <Box :size="1" :position="{ x: 10, y: 0, z: 0 }">
@@ -8,7 +8,7 @@ You can easily create mesh :
 </Box>
 ```
 
-You can use the following meshes :
+You can use the following meshes:
 
 - `Box` ([source](https://github.com/troisjs/trois/blob/master/src/meshes/Box.ts), [three.js doc](https://threejs.org/docs/#api/en/geometries/BoxBufferGeometry))
 - `Circle` ([source](https://github.com/troisjs/trois/blob/master/src/meshes/Circle.ts), [three.js doc](https://threejs.org/docs/#api/en/geometries/CircleBufferGeometry))
@@ -48,7 +48,7 @@ You can use the following meshes :
 
 To enable shadows, please read [Shadows](../shadows).
 
-### Example :
+### Example:
 
 ```html
 <Box
@@ -64,13 +64,13 @@ To enable shadows, please read [Shadows](../shadows).
 
 ### Access three.js mesh
 
-You should set a *ref* on your mesh :
+You should set a *ref* on your mesh:
 
 ```html
 <Box ref="box" />
 ```
 
-You can then access three.js mesh in your component script :
+You can then access three.js mesh in your component script:
 
 ```js
 const mesh = this.$ref.box.mesh;

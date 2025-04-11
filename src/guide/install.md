@@ -6,11 +6,11 @@ You don't need to install TroisJS to play with it, please read [how to use Trois
 
 ## New project
 
-Download :
+Download:
 - [TroisJS/ViteJS Starter App](https://raw.githubusercontent.com/troisjs/troisjs.github.io/HEAD/src/public/assets/troisjs.zip).
 - or [TroisJS/Typescript/ViteJS Starter App](https://raw.githubusercontent.com/troisjs/troisjs.github.io/HEAD/src/public/assets/troisjs-ts.zip).
 
-Unzip it, and :
+Unzip it, and:
 
 ```
 cd troisjs (or troisjs-ts)
@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-Or :
+Or:
 
 ```
 cd troisjs (or troisjs-ts)
@@ -96,8 +96,8 @@ export default {
 
 ## Typescript
 
-TroisJS v0.3 has been rewritten using Typescript, if you want to have a good support :
+TroisJS v0.3 has been rewritten using Typescript. If you want to have a good support:
 
-- Use Visual Studio Code, with Volar extension : https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
-- Read this : https://v3.vuejs.org/guide/typescript-support.html
+- Use Visual Studio Code, with Volar extension: https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
+- Read this: https://v3.vuejs.org/guide/typescript-support.html
 - Don't use TroisJS plugin and import the components

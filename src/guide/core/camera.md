@@ -53,13 +53,13 @@ See [PerspectiveCamera.ts](https://github.com/troisjs/trois/blob/master/src/core
 
 ### Access three.js camera
 
-You should set a *ref* on the camera :
+You should set a *ref* on the camera:
 
 ```html
 <Camera ref="camera" />
 ```
 
-You can then access three.js camera in your component script :
+You can then access three.js camera in your component script:
 
 ```js
 const camera = this.$refs.camera.camera;
